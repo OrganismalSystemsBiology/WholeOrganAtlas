@@ -1,0 +1,300 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中間ディレクトリ (x64\Release\) に別のプロジェクト (MacroScope_ver1.vcxproj) と共有されているファイルが含まれています。これにより、クリーンしてリビルド動作が適切に行われない可能性があります。
+  MyForm.cpp
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\imageanalysis.h(92): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\imageanalysis.h(104): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 'fopen' の宣言を確認してください
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\flipper.h(38): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+  c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\flipper.h(38): note: プレースホルダーとそのパラメーターには 2 の可変個引数が必要ですが、3 が指定されています。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\kdc101.h(33): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+  c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\kdc101.h(33): note: プレースホルダーとそのパラメーターには 2 の可変個引数が必要ですが、3 が指定されています。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\shutter.h(35): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+  c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\shutter.h(35): note: プレースホルダーとそのパラメーターには 2 の可変個引数が必要ですが、3 が指定されています。
+c:\users\ueda_macro\source\repos\include\misc\console4.h(81): warning C4005: '_T': マクロが再定義されました。
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\tchar.h(2427): note: '_T' の以前の定義を確認してください
+c:\users\ueda_macro\source\repos\include\misc\common.cpp(165): warning C4101: 'buf': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(440): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(658): warning C4244: 'return': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(656): warning C4101: 'nDiff': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(666): warning C4309: '=': 定数値が切り捨てられました。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(681): warning C4309: '=': 定数値が切り捨てられました。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(695): warning C4309: '=': 定数値が切り捨てられました。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(749): warning C4090: '初期化中': 異なる '__unaligned' 修飾子です。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(864): warning C4101: 'e': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(898): warning C4244: '*=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(899): warning C4244: '*=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(900): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(901): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(908): warning C4244: '/=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(909): warning C4244: '/=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(910): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(911): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(957): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(1081): warning C4244: '引数': 'double' から 'uInt64' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(1082): warning C4244: '引数': 'double' から 'int32' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(1109): warning C4244: '引数': 'double' から 'uInt64' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(1112): warning C4244: '引数': 'double' から 'int32' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(1137): warning C4244: '引数': 'double' から 'uInt64' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(1140): warning C4244: '引数': 'double' から 'int32' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(1164): warning C4244: '引数': 'double' から 'uInt64' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(1167): warning C4244: '引数': 'double' から 'int32' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(8689): warning C4101: 'Dev': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(8708): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(8807): warning C4244: '引数': 'double' から 'AT_64' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9199): warning C4101: 'e': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9206): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9207): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9210): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9211): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9217): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9218): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9221): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9222): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9227): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9228): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9231): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9232): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9241): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9242): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9245): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9246): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9252): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9253): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9256): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9257): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9262): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9263): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9266): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9267): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9322): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9350): warning C4101: 'd': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9483): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9532): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9588): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9578): warning C4101: 'Path': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9640): warning C4244: 'return': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9645): warning C4244: '引数': 'AT_64' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9649): warning C4244: '引数': 'AT_64' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(10239): warning C4244: 'return': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(10463): warning C4244: '引数': 'double' から 'DWORD' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(10481): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(10655): warning C4101: 'spd': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(10887): warning C4101: 'e': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(11011): warning C4244: '=': '__int64' から 'double' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(10905): warning C4101: 'ret': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(11063): warning C4553: '==': 演算子にプログラム上の作用がありません。'=' を意図しましたか?
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(11090): warning C4101: 'e': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(11135): warning C4805: '==': 演算中の 'int' 型と 'bool' 型の混用は安全ではありません
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(11146): warning C4805: '==': 演算中の 'int' 型と 'bool' 型の混用は安全ではありません
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(11157): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(11173): warning C4244: '=': 'AT_64' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(11176): warning C4244: '=': 'AT_64' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(11180): warning C4244: '=': 'AT_64' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(11183): warning C4244: '=': 'AT_64' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(11210): warning C4101: 'e': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(11229): warning C4101: 'e': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(11423): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(11455): warning C4102: 'Error': ラベルは 1 度も参照されません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(11490): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(11645): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(11727): warning C4102: 'Error2': ラベルは 1 度も参照されません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(11684): warning C4101: 'd': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(12241): warning C4101: 'e': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(12403): warning C4691: 'System::Func': 参照された型は参照されていない アセンブリ 'System.Core' で必要です。現在の翻訳単位で定義された型が使用されます
+  c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(12403): note: 型 'OptecHID_FilterWheelAPI::FilterWheels ' をアセンブリ 'OptecHID_FilterWheelAPI, Version=2.0.9.0, Culture=neutral, PublicKeyToken=44aa7042cfa351f3' からインポート中に、この診断が発生しました。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(12440): warning C4554: '|': 演算子の優先順位に問題があります。かっこを使用して優先順位を明確にしてください
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(12818): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(12823): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(12855): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(12886): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(12919): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(12994): warning C4101: 'e': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13050): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13078): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13092): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13106): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13148): warning C4101: 'e': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13329): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13330): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13333): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13334): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13340): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13470): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13471): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13483): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13489): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13492): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13495): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13500): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13503): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13512): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13515): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13518): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13523): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13526): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13559): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13562): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13573): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13576): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13586): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13589): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13600): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13603): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13612): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13614): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13618): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13620): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13626): warning C4804: '>': 演算中の 'bool' 型の使用方法が安全ではありません
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13630): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13631): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13648): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13649): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13693): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13694): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13869): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13870): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13874): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13883): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13884): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13886): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13889): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13892): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13893): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13894): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13904): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13924): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13925): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13950): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13951): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(13952): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14101): warning C4244: '初期化中': '__int64' から 'double' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14105): warning C4244: '=': '__int64' から 'double' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14127): warning C4553: '==': 演算子にプログラム上の作用がありません。'=' を意図しましたか?
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14250): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14251): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14255): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14256): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14270): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14271): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14273): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14275): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14277): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14278): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14279): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14289): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14309): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14310): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14344): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14345): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14440): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14446): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14563): warning C4244: '初期化中': '__int64' から 'double' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14567): warning C4244: '=': '__int64' から 'double' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14685): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14686): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14688): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14691): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14694): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14695): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14696): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14706): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14726): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14727): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14758): warning C4102: 'ReTry_Point': ラベルは 1 度も参照されません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14854): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14855): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14856): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14857): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14842): warning C4101: 'Path': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14919): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14920): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14921): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14922): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(14907): warning C4101: 'Path': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(15532): warning C4101: 'dir': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(15932): warning C4553: '==': 演算子にプログラム上の作用がありません。'=' を意図しましたか?
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(15935): warning C4553: '==': 演算子にプログラム上の作用がありません。'=' を意図しましたか?
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(15920): warning C4102: 'Laser_Filter_set_count': ラベルは 1 度も参照されません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(15693): warning C4101: 'FFL_count': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(15694): warning C4101: 'FFR_count': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(16211): warning C4244: '初期化中': '__int64' から 'double' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(16240): warning C4244: '初期化中': '__int64' から 'double' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(16262): warning C4244: '初期化中': '__int64' から 'double' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(16289): warning C4244: '初期化中': '__int64' から 'double' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(16325): warning C4101: 'e': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(16582): warning C4101: 'v': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(16631): warning C4244: '=': 'double' から 'int32' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(16634): warning C4244: '=': 'double' から 'int32' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(16637): warning C4244: '=': 'double' から 'int32' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(16640): warning C4244: '=': 'double' から 'int32' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(16643): warning C4244: '=': 'double' から 'int32' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17303): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17305): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17309): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17311): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17315): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17317): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17324): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17326): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17330): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17332): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17336): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17338): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17443): warning C4101: 'ret': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17717): warning C4101: 'ret': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17784): warning C4101: 'ret': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17820): warning C4101: 'ret': ローカル変数は 1 度も使われていません。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17889): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17899): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17921): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17923): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17951): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17952): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17967): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(17970): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(18007): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(18148): warning C4553: '==': 演算子にプログラム上の作用がありません。'=' を意図しましたか?
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(18150): warning C4553: '==': 演算子にプログラム上の作用がありません。'=' を意図しましたか?
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(18152): warning C4553: '==': 演算子にプログラム上の作用がありません。'=' を意図しましたか?
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(18154): warning C4553: '==': 演算子にプログラム上の作用がありません。'=' を意図しましたか?
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(18156): warning C4553: '==': 演算子にプログラム上の作用がありません。'=' を意図しましたか?
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(18158): warning C4553: '==': 演算子にプログラム上の作用がありません。'=' を意図しましたか?
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(18267): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(18282): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\opencv-3.4.2\build\include\opencv2\core\cvstd.hpp(575): warning C4793: cv::String::String': ネイティブ関数としてコンパイルされました:
+  	マネージ コードでサポートされていない組み込み型が見つかりました
+c:\opencv-3.4.2\build\include\opencv2\core\cuda.inl.hpp(105): warning C4793: cv::cuda::GpuMat::GpuMat': ネイティブ関数としてコンパイルされました:
+  	マネージ コードでサポートされていない組み込み型が見つかりました
+c:\opencv-3.4.2\build\include\opencv2\core\cuda.inl.hpp(395): warning C4793: cv::cuda::HostMem::HostMem': ネイティブ関数としてコンパイルされました:
+  	マネージ コードでサポートされていない組み込み型が見つかりました
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(12603): warning C4715: 'MacroScopever1::MyForm::Filter_Color': 値を返さないコントロール パスがあります。
+c:\opencv-3.4.2\build\include\opencv2\core\mat.inl.hpp(483): warning C4793: cv::Mat::Mat': ネイティブ関数としてコンパイルされました:
+  	マネージ コードでサポートされていない組み込み型が見つかりました
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\kdc101.h(67): warning C4715: 'Focus_stage_connection': 値を返さないコントロール パスがあります。
+c:\users\ueda_macro\source\repos\include\misc\common.cpp(31): warning C4793: dcamcon_show_dcamerr': ネイティブ関数としてコンパイルされました:
+  	vararg は /clr でサポートされていません
+c:\users\ueda_macro\source\repos\include\misc\common.cpp(44): warning C4793: dcamcon_show_dcamerr': ネイティブ関数としてコンパイルされました:
+  	マネージ コードでサポートされていない組み込み型が見つかりました
+c:\users\ueda_macro\source\repos\include\misc\common.cpp(46): warning C4793: dcamcon_show_dcamerr': ネイティブ関数としてコンパイルされました:
+  	マネージ コードでサポートされていない組み込み型が見つかりました
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9677): warning C4715: 'MacroScopever1::MyForm::Sobel_Calc_full': 値を返さないコントロール パスがあります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(10692): warning C4715: 'MacroScopever1::MyForm::ShutterMode': 値を返さないコントロール パスがあります。
+c:\users\ueda_macro\source\repos\bigmovie_for_publish\macroscope_ver1\myform.h(9744): warning C4715: 'MacroScopever1::MyForm::Sobel_Calc': 値を返さないコントロール パスがあります。
+c:\opencv-3.4.2\build\include\opencv2\core\mat.inl.hpp(807): warning C4793: cv::Mat::release': ネイティブ関数としてコンパイルされました:
+  	マネージ コードでサポートされていない組み込み型が見つかりました
+c:\opencv-3.4.2\build\include\opencv2\core\mat.inl.hpp(2141): warning C4793: cv::SparseMat::addref': ネイティブ関数としてコンパイルされました:
+  	マネージ コードでサポートされていない組み込み型が見つかりました
+c:\opencv-3.4.2\build\include\opencv2\core\mat.inl.hpp(3741): warning C4793: cv::UMat::addref': ネイティブ関数としてコンパイルされました:
+  	マネージ コードでサポートされていない組み込み型が見つかりました
+c:\opencv-3.4.2\build\include\opencv2\core\ptr.inl.hpp(67): warning C4793: cv::detail::PtrOwner::incRef': ネイティブ関数としてコンパイルされました:
+  	マネージ コードでサポートされていない組み込み型が見つかりました
+c:\opencv-3.4.2\build\include\opencv2\core\ptr.inl.hpp(72): warning C4793: cv::detail::PtrOwner::decRef': ネイティブ関数としてコンパイルされました:
+  	マネージ コードでサポートされていない組み込み型が見つかりました
+c:\opencv-3.4.2\build\include\opencv2\core\cvstd.hpp(657): warning C4793: cv::String::operator=': ネイティブ関数としてコンパイルされました:
+  	マネージ コードでサポートされていない組み込み型が見つかりました
+MyForm.obj : warning LNK4248: 未解決の typeref トークン (01000049) ('tag_dcam') です。イメージを実行できません。
+MyForm.obj : warning LNK4248: 未解決の typeref トークン (01000069) ('DCAMWAIT') です。イメージを実行できません。
+  MacroScope_ver1.vcxproj -> C:\Users\ueda_macro\source\repos\BigMOVIE_for_publish\x64\Release\GPSi.exe
