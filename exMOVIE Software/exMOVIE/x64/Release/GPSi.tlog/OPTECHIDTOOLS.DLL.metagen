@@ -1,0 +1,130 @@
+  OptecHIDTools.DeviceChangeNotifier.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v2.0.50727
+Assembly OptecHIDTools, Version=2.0.9.0, Culture=neutral, PublicKeyToken=44aa7042cfa351f3: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class OptecHIDTools.Setup_API_Wrappers: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Struct OptecHIDTools.Setup_API_Wrappers+DeviceBroadcastInterface: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, UnicodeClass, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 Size : Public
+    Int32 DeviceType : Public
+    Int32 Reserved : Public
+    System.Guid ClassGuid : Public
+    System.String Name : Public, HasFieldMarshal
+Class OptecHIDTools.HID_API_Wrapers: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OptecHIDTools.ReadWrite_API_Wrappers: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OptecHIDTools.Win32Errors: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OptecHIDTools.DeviceChangeNotifier: AutoLayout, AnsiClass, Class, Public
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OptecHIDTools.DeviceChangeNotifier+DeviceNotifyDelegate: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Message): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Message, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class OptecHIDTools.DeviceListChangedArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String SerialNumber 'get ' : 
+    System.String PID 'get ' : 
+    System.String VID 'get ' : 
+  Methods:
+    get_SerialNumber(): PrivateScope, Public, HideBySig, SpecialName
+    get_PID(): PrivateScope, Public, HideBySig, SpecialName
+    get_VID(): PrivateScope, Public, HideBySig, SpecialName
+Class OptecHIDTools.FeatureReport: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int16, Byte[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Byte[] Response1 'get set' : 
+    Byte[] Response2 'get set' : 
+    Byte[] DataToSend 'get set' : 
+    Int16 ReportID 'get set' : 
+  Methods:
+    get_Response1(): PrivateScope, Public, HideBySig, SpecialName
+    get_Response2(): PrivateScope, Public, HideBySig, SpecialName
+    get_DataToSend(): PrivateScope, Public, HideBySig, SpecialName
+    set_DataToSend(Byte[]): PrivateScope, Public, HideBySig, SpecialName
+    get_ReportID(): PrivateScope, Public, HideBySig, SpecialName
+    set_ReportID(Int16): PrivateScope, Public, HideBySig, SpecialName
+Class OptecHIDTools.OutputReport: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int16, Byte[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Byte[] DataToSend 'get set' : 
+    Int16 ReportID 'get set' : 
+  Methods:
+    get_DataToSend(): PrivateScope, Public, HideBySig, SpecialName
+    set_DataToSend(Byte[]): PrivateScope, Public, HideBySig, SpecialName
+    get_ReportID(): PrivateScope, Public, HideBySig, SpecialName
+    set_ReportID(Int16): PrivateScope, Public, HideBySig, SpecialName
+Class OptecHIDTools.InputReport: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int16): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int16 ReportID 'get set' : 
+    Byte[] ReceivedData 'get set' : 
+  Methods:
+    get_ReportID(): PrivateScope, Public, HideBySig, SpecialName
+    set_ReportID(Int16): PrivateScope, Public, HideBySig, SpecialName
+    get_ReceivedData(): PrivateScope, Public, HideBySig, SpecialName
+Class OptecHIDTools.HIDMonitor: AutoLayout, AnsiClass, Class, Public
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.List`1[OptecHIDTools.HID] DetectedHIDs 'get ' : 
+  Events:
+    System.EventHandler HIDAttached: 
+    System.EventHandler HIDRemoved: 
+  Methods:
+    add_HIDAttached(EventHandler): PrivateScope, Public, Static, HideBySig, SpecialName
+    remove_HIDAttached(EventHandler): PrivateScope, Public, Static, HideBySig, SpecialName
+    add_HIDRemoved(EventHandler): PrivateScope, Public, Static, HideBySig, SpecialName
+    remove_HIDRemoved(EventHandler): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_DetectedHIDs(): PrivateScope, Public, Static, HideBySig, SpecialName
+Class OptecHIDTools.HID: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String VID_Hex 'get set' : 
+    System.String PID_Hex 'get set' : 
+    Boolean DeviceIsAttached 'get set' : 
+    System.String SerialNumber 'get set' : 
+    System.String Manufacturer 'get set' : 
+    System.String ProductDescription 'get set' : 
+  Events:
+    System.EventHandler DeviceRemoved: 
+    System.EventHandler DeviceAttached: 
+  Methods:
+    add_DeviceRemoved(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_DeviceRemoved(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_DeviceAttached(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_DeviceAttached(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_VID_Hex(): PrivateScope, Public, HideBySig, SpecialName
+    set_VID_Hex(String): PrivateScope, Public, HideBySig, SpecialName
+    get_PID_Hex(): PrivateScope, Public, HideBySig, SpecialName
+    set_PID_Hex(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DeviceIsAttached(): PrivateScope, Public, HideBySig, SpecialName
+    get_SerialNumber(): PrivateScope, Public, HideBySig, SpecialName
+    set_SerialNumber(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Manufacturer(): PrivateScope, Public, HideBySig, SpecialName
+    set_Manufacturer(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ProductDescription(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProductDescription(String): PrivateScope, Public, HideBySig, SpecialName
+    SendReport_Interrupt(OutputReport): PrivateScope, Public, HideBySig
+    ProcessFeatureReport(FeatureReport): PrivateScope, Public, HideBySig
+    SendReport_Control(OutputReport): PrivateScope, Public, HideBySig
+    RequestInputReport_Interrupt(Int16): PrivateScope, Public, HideBySig
+    RequestInputReport_Control(InputReport): PrivateScope, Public, HideBySig
