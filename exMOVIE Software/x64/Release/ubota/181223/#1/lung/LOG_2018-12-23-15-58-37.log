@@ -1,0 +1,66 @@
+mode: multifocus
+2018/12/23 15:58:37
+Directory: ubota\\181223\\#1\\lung
+Stem1: Lung
+Stem2: Camera2
+Laser/Filter
+Laser_Filter_set_count: 2
+Laser/Filter/Laser_power(mw)/exposure_time(ms)/FocusPosition
+3/2/30 / 30 / 8891
+2/1/200 / 30 / 8543
+Exposuretime: 30
+Amplitude_sheet: 3.5
+Amplitude_mSPIM: 1
+ScanStep: 5
+X/Y: 2618/-1378
+Start_Z/End_Z: 3340/5590
+left focus Count: 3
+left focus list:
+70
+90
+108
+right focus Count: 3
+right focus list:
+62
+88
+104
+left focusPos Count: 3
+left focusPos list:
+970
+768
+566
+right focusPos Count: 3
+right focusPos list:
+1172
+1366
+1560
+ETL_correction_647
+set1_name: Ab
+set2_name: Cancer
+set3_name: set3
+set4_name: set4
+filter_setting1: 525/50
+filter_setting2: 625/30
+filter_setting3: 660/LP
+filter_setting4: blank
+filter_setting5: blank
+filter_setting6: blank
+filter_setting7: blank
+filter_setting8: blank
+text_488_592_L: 10
+text_488_592_R: 6
+text_488_647_L: 3
+text_488_647_R: 0
+text_592_488_L: -10
+text_592_488_R: -6
+text_592_647_L: -7
+text_592_647_R: -6
+text_647_592_L: 7
+text_647_592_R: 6
+text_647_488_L: -3
+text_647_488_R: 0
+AF_left1: 465
+AF_center1: 1075
+AF_right1: 1661
+AF_y1: 1008
+total_focus1: 6

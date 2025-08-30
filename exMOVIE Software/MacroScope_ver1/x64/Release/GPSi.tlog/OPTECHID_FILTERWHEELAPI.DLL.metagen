@@ -1,0 +1,102 @@
+  OptecHID_FilterWheelAPI.Resource1.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v2.0.50727
+Assembly OptecHID_FilterWheelAPI, Version=2.0.9.0, Culture=neutral, PublicKeyToken=44aa7042cfa351f3: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly OptecHIDTools, Version=2.0.9.0, Culture=neutral, PublicKeyToken=44aa7042cfa351f3: 
+	hash=None, flags=None
+Assembly System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class OptecHID_FilterWheelAPI.FilterWheels: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.Dictionary`2[System.Char,System.Int16] FiltersPerWheel : Public
+  Properties:
+    Int32 AttachedDeviceCount 'get ' : 
+    System.Collections.ArrayList FilterWheelList 'get ' : 
+    System.String API_Diagnostics 'get ' : 
+  Events:
+    System.EventHandler FilterWheelRemoved: 
+    System.EventHandler FilterWheelAttached: 
+  Methods:
+    add_FilterWheelRemoved(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_FilterWheelRemoved(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_FilterWheelAttached(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_FilterWheelAttached(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    GetErrorMessage(Int16): PrivateScope, Public, HideBySig
+    get_AttachedDeviceCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_FilterWheelList(): PrivateScope, Public, HideBySig, SpecialName
+    get_API_Diagnostics(): PrivateScope, Public, HideBySig, SpecialName
+Class OptecHID_FilterWheelAPI.FilterWheel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Properties:
+    System.String Name 'get set' : 
+    Boolean IsAttached 'get ' : 
+    Int16 CurrentPosition 'get set' : 
+    Boolean IsHomed 'get set' : 
+    Boolean IsHoming 'get set' : 
+    Boolean IsMoving 'get set' : 
+    Int16 ErrorState 'get set' : 
+    Int16 CenteringOffset 'get set' : 
+    System.String SerialNumber 'get set' : 
+    System.String Manufacturer 'get set' : 
+    Char WheelID 'get set' : 
+    System.String FirmwareVersion 'get set' : 
+    Int16 NumberOfFilters 'get set' : 
+  Events:
+    System.EventHandler HomingCompleted: 
+    System.EventHandler HomingStarted: 
+    System.EventHandler MoveComplete: 
+    System.EventHandler MoveStarted: 
+    System.EventHandler DeviceRemoved: 
+  Methods:
+    add_HomingCompleted(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_HomingCompleted(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_HomingStarted(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_HomingStarted(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_MoveComplete(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_MoveComplete(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_MoveStarted(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_MoveStarted(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_DeviceRemoved(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_DeviceRemoved(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+    get_IsAttached(): PrivateScope, Public, HideBySig, SpecialName
+    get_CurrentPosition(): PrivateScope, Public, HideBySig, SpecialName
+    set_CurrentPosition(Int16): PrivateScope, Public, HideBySig, SpecialName
+    get_IsHomed(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsHoming(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsHoming(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_IsMoving(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsMoving(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ErrorState(): PrivateScope, Public, HideBySig, SpecialName
+    set_ErrorState(Int16): PrivateScope, Public, HideBySig, SpecialName
+    get_CenteringOffset(): PrivateScope, Public, HideBySig, SpecialName
+    set_CenteringOffset(Int16): PrivateScope, Public, HideBySig, SpecialName
+    get_SerialNumber(): PrivateScope, Public, HideBySig, SpecialName
+    set_SerialNumber(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Manufacturer(): PrivateScope, Public, HideBySig, SpecialName
+    set_Manufacturer(String): PrivateScope, Public, HideBySig, SpecialName
+    get_WheelID(): PrivateScope, Public, HideBySig, SpecialName
+    set_WheelID(Char): PrivateScope, Public, HideBySig, SpecialName
+    get_FirmwareVersion(): PrivateScope, Public, HideBySig, SpecialName
+    set_FirmwareVersion(String): PrivateScope, Public, HideBySig, SpecialName
+    get_NumberOfFilters(): PrivateScope, Public, HideBySig, SpecialName
+    set_NumberOfFilters(Int16): PrivateScope, Public, HideBySig, SpecialName
+    HomeDevice(): PrivateScope, Public, HideBySig
+    HomeDevice_ASync(): PrivateScope, Public, HideBySig
+    ClearErrorState(): PrivateScope, Public, HideBySig
+    RestoreDefaultNames(): PrivateScope, Public, HideBySig
+    GetFilterNames(Char): PrivateScope, Public, HideBySig
+    GetWheelNames(): PrivateScope, Public, HideBySig
+    UpdateFilterName(Char, Int16, String): PrivateScope, Public, HideBySig
+    UpdateWheelName(Char, String): PrivateScope, Public, HideBySig
+    GetErrorMessage(Int16): PrivateScope, Public, HideBySig
+    CheckAttachmentState(): PrivateScope, Public, HideBySig
+    ExitAndGC(): PrivateScope, Public, HideBySig
+Class OptecHID_FilterWheelAPI.FirmwareException: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Exception
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
