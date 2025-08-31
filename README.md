@@ -26,3 +26,7 @@
 
 # utils\_220828.py: Utility functions used by the stitching script.
 
+# (4) exMOVIE_microscopy.step
+
+# 3D CAD data(step file) of the exMOVIE microscopy.
+
